@@ -1,0 +1,39 @@
+body
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: left;
+   min-height: 100vh;
+   background-color:   #cbd2d9;
+}
+
+p{
+    color: #616e7c;
+    margin-top: 10px;
+    justify-content: flex-start;
+
+}
+
+
+.flexbox-container
+{
+    position: relative;
+    padding: 20px 450px;
+    width: 300px;
+    
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    box-shadow: 0 0 20px -10px;
+    border-radius: 1vh;
+    box-shadow: 0 5px 25px rgba(red, green, blue, alpha);
+}
+
+button {
+    background-color: #616e7c;
+    color: white;
+    border-radius: 7px;
+    padding: 8px 15px;
+    border: 0;
+  }
